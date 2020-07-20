@@ -1,7 +1,7 @@
 import { Component, template } from '../../references/quantum.js';
-import html from '../templates/element.js';
+import html from '../templates/range.js';
 
-export class Element extends Component {
+export class Range extends Component {
     constructor() {
         super();
     }
@@ -11,4 +11,4 @@ export class Element extends Component {
     static attributes = [];
 }
 
-customElements.define('quantum-element', Element);
+customElements.define('quantum-range', Range);
