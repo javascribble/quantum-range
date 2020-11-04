@@ -1,11 +1,12 @@
+import { Component, template, define } from '../import.js';
 import html from '../templates/range.js';
 
-export class Range extends quantum.Component {
+export class Range extends Component {
     constructor() {
         super();
     }
 
-    static template = quantum.template(html);
+    static template = template(html);
 }
 
-quantum.define('quantum-range', Range);
+define('quantum-range', Range);
