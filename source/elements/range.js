@@ -1,5 +1,7 @@
 import html from '../templates/range.js';
 
+const { Component, template, define } = quantum;
+
 export class Range extends Component {
     constructor() {
         super();
