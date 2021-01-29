@@ -1,3 +1,3 @@
-import * as range from './elements/element.js';
+import { Range } from './elements/element.js';
 
-Object.assign(quantum, range);
+Quantum.Range = Range;
