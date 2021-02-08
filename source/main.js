@@ -1,3 +1,1 @@
-import { Range } from './elements/element.js';
-
-Quantum.Range = Range;
+import './elements/element.js';
